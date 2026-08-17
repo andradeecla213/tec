@@ -1,0 +1,55 @@
+body{
+    background: linear-gradient(45deg, #60D2FF 0%, #484C98 50%, #691919 100%);
+    height: 100vh;
+    margin: 0;
+    position: relative;
+}
+
+.container {
+    border-left: 3px solid #ffffff; 
+    margin-left: 150px;
+    margin-top: 150px;
+}
+
+h1{
+    margin-left: 50px;
+    color: #ffff;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 100px;
+}
+
+.card-principal {
+  position: relative;
+  background: linear-gradient(135deg, #3b3379, #543265);
+  height: 400px;
+}
+
+.botao-seta {
+  position: absolute;
+  bottom: 40px;
+  right: 40px;
+  width: 10px;           
+  height: 100px;         
+  background-color: #ffffff;
+  border-radius: 10px;
+  cursor: pointer;
+  transition: transform 0.2s ease;
+}
+
+.botao-seta::after {
+  content: "";
+  position: absolute;
+  bottom: -2px;
+  left: 50%;
+  width: 25px;
+  height: 25px;
+  border-right: 7px solid #ffffff;
+  border-bottom: 7px solid #ffffff;
+  border-radius: 10 10 10px 10;
+  
+  transform: translateX(-50%) rotate(45deg);
+}
+
+.botao-seta:hover {
+  transform: translateY(5px);
+}
