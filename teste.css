@@ -58,13 +58,13 @@ html{
 header{
   background-color:  linear-gradient(45deg, #60D2FF 0%, #484C98 50%, #691919 100%);
   padding: 200px;
-  margin-top: 350px;
+  margin-top: 400px;
 
 } 
 
 footer{
   background-color: #3258A4;
-  padding: 140px;
+  padding: 180px;
 } 
 
 h2{
