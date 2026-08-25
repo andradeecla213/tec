@@ -19,8 +19,8 @@ body {
 
 .card1{
     background-color: #8EDEFE;
-    width: 1600px;
-    height: 800px;
+    width: 1400px;
+    height: 700px;
     border-radius: 50px;
     display: flex;
     justify-content: center;
@@ -40,7 +40,7 @@ body {
     flex-direction: column;
     align-items: top;
     color: #691919;
-    font-size: 40px;
+    font-size: 30px;
 }
 
 .bottom-h1{
@@ -53,15 +53,16 @@ body {
 
 .position{
     display: flex;
-    justify-content: center;
-    align-items: center;
+    justify-content:center;
+    align-items:center;
     flex-direction: column;
+    margin-top: 50px;
 }
 
 .botao-seta {
   position: fixed;
-  top:150px;
-  left: 1380px;
+  top: 75px;
+  left: 1250px;
   transform: translate(-50%, -50%);
   width: 100px;
   height: 100px;
