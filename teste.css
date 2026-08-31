@@ -46,6 +46,40 @@ h1{
   transform: translateY(5px);
 }
 
+.sobre{  
+  height: 500px;
+  margin-top: -21px;
+}
+
+.h1so{
+  color: #ffff;
+  font-family: 'Times New Roman', Times, serif;
+  font-size: 80px;
+  display: flex;
+  justify-content: center;
+
+}
+
+.bloco-texto {
+  max-width: 1000px; /* Limita a largura para o texto não esticar demais */
+  margin: 0 auto; /* Centraliza o bloco na horizontal */
+}
+
+.bloco-texto p {
+  font-size: 30px;
+  line-height: 1.5; /* Altura da linha idêntica à imagem */
+  text-align: left; /* Garante o alinhamento à esquerda */
+}
+
+p{
+  color: #ffff;
+  font-family: 'Times New Roman', Times, serif;
+}
+
+.headersob{
+  background-color: rgba(0, 0, 0, 0.5); /* Preto com 50% de transparência */
+  padding: 50px;
+}
 .claro{
   height: 500px;
   margin: 0;
