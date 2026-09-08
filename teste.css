@@ -1,6 +1,6 @@
 body{
     background: linear-gradient(45deg, #60D2FF 0%, #484C98 50%, #691919 100%);
-    height: 88vh;
+    height: 750px;
     margin: 0;
     position: relative;
 }
@@ -21,7 +21,7 @@ h1{
 
 .botao-seta {
   position: absolute;
-  bottom: 200px;
+  bottom: 150px;
   right: 150px;
   width: 10px;           
   height: 100px;         
@@ -46,40 +46,43 @@ h1{
   transform: translateY(5px);
 }
 
-.sobre{  
-  height: 500px;
-  margin-top: -21px;
+.sobre{
+  height: 250px;
+
+}
+
+.headersob{
+  margin-top: 292px;
+  padding: 40px;
+  background-color: rgba(0, 0, 0, 0.5); /* Preto com 50% de transparência */
 }
 
 .h1so{
   color: #ffff;
   font-family: 'Times New Roman', Times, serif;
-  font-size: 80px;
+  font-size: 70px;
   display: flex;
   justify-content: center;
-
-}
-
-.bloco-texto {
-  max-width: 1000px; /* Limita a largura para o texto não esticar demais */
-  margin: 0 auto; /* Centraliza o bloco na horizontal */
-}
-
-.bloco-texto p {
-  font-size: 30px;
-  line-height: 1.5; /* Altura da linha idêntica à imagem */
-  text-align: left; /* Garante o alinhamento à esquerda */
+  padding-top: 50px;
 }
 
 p{
+  padding-top: 20px;
+  display: flex;
+  justify-content: center;
+  font-size: 40px;
   color: #ffff;
   font-family: 'Times New Roman', Times, serif;
+  line-height: 1;
 }
 
-.headersob{
-  background-color: rgba(0, 0, 0, 0.5); /* Preto com 50% de transparência */
-  padding: 50px;
+.avoltar{
+  color: #ffffff;
+  text-decoration: none;
+  font-size: 30px;
 }
+
+
 .claro{
   height: 500px;
   margin: 0;
@@ -105,21 +108,22 @@ h2{
   margin-left: 200px;
   color: #ffff;
   font-family: 'Times New Roman', Times, serif;
-  font-size: 35px;
+  font-size: 30px;
+  padding-top: 200px;
 }
 .borda{
   background-color: #60D2FF;
   padding-top: 50px;
   padding-bottom: 50px;
   padding-left: 25px;
-  padding-right: 30px;
-  margin-left: 360px;
-  margin-right: 470px;
+  padding-right: 10px;
+  margin-left: 380px;
+  margin-right: 400px;
   border-radius: 15px;
 }
 
 .red{
-  list-style: none;
+  text-decoration: none;
   color:#ffffff;
   background-color: #691919;
   padding-left: 100px;
