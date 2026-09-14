@@ -1,2 +1,2 @@
 # tec
-feira tecnologica
+https://andradeecla213.github.io/tec/
