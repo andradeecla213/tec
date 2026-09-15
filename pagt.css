@@ -1,0 +1,78 @@
+html, body {
+    margin: 0;
+    height: 100%;
+}
+
+.container {
+    display: flex;
+    height: 100%;
+}
+
+.bloco-esquerdo{
+    flex: 5;
+    background-color: #F1D607; 
+    width: 5%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.seta-esquerda {
+    position: absolute;
+    top: 70px; /* posicionamento da seta */
+    left: 130px;
+    background: none;
+    border: none;
+    cursor: pointer;
+    text-decoration: none;
+    transition: transform 0.2s;
+}
+
+.seta-vermelha {
+    display: inline-block;
+    width: 100px; /* comprimento */
+    height: 6px; /* Espessura da linha horizontal  */
+    background-color: #691919; 
+    position: relative;
+}
+
+.seta-vermelha::before {
+    content: '';
+    position: absolute; /* alinhar  */
+    top: 50%;
+    left: 0;
+    width: 30px; /* Tamanho das abas da ponta */
+    height: 30px;
+    border-top: 7px solid #691919;    /* Cria as linhas finas apenas no topo e na esquerda */
+    border-left: 7px solid #691919;
+    transform: translateY(-50%) rotate(-45deg);/* Rotaciona o quadrado para virar uma ponta de seta (<) */
+    transform-origin: center;    /* Garante que a rotação comece exatamente do bico esquerdo */
+}
+
+img{
+    height: 500px;
+    width: 400px;
+}
+
+.bloco-direito{
+    flex: 5;
+    background-color: #7124A8; 
+}
+
+h1{
+  display: flex;
+  justify-content: center;
+  color: #ffff;
+  font-family: 'Times New Roman', Times, serif;
+  font-size: 100px;
+}
+
+h2{
+  display: flex;
+  justify-content: center;
+  margin-left: 50px;
+  color: #ffff;
+  font-family: 'Times New Roman', Times, serif;
+  font-size: 50px;
+}
