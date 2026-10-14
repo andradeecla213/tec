@@ -1,0 +1,106 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+body {
+    width: 100%;
+    height: 100vh;
+    overflow: hidden;
+}
+
+.industria2 {
+    display: flex;
+    width: 100%;
+    height: 100vh;
+}
+
+.esquerda {
+    width: 50.5%;
+    height: 100vh;
+    background-color: #fff18b;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    position: relative;
+}
+
+.esquerda img {
+    width: 90%;
+    max-width: 530px;
+    height: auto;
+    object-fit: cover;
+
+    margin-top: 40px;
+}
+
+
+
+.seta-esquerda {
+    position: absolute;
+    top: 70px; 
+    left: 130px;
+    background: none;
+    border: none;
+    cursor: pointer;
+    text-decoration: none;
+    transition: transform 0.2s;
+}
+
+.seta-vermelha {
+    display: inline-block;
+    width: 100px; 
+    height: 6px;
+    background-color: #691919; 
+    position: relative;
+}
+
+.seta-vermelha::before {
+    content: '';
+    position: absolute; 
+    top: 50%;
+    left: 0;
+    width: 30px; 
+    height: 30px;
+    border-top: 7px solid #691919;    
+    border-left: 7px solid #691919;
+    transform: translateY(-50%) rotate(-45deg);
+    transform-origin: center;
+}
+
+.direita {
+    width: 49.5%;
+    height: 100vh;
+    background-color: #c494d2;
+    padding-left: 6%;
+    padding-top: 95px;
+    color: white;
+}
+
+.direita h1 {
+    font-family: Georgia, 'Times New Roman', serif;
+    font-size: 60px;
+    font-weight: bold;
+    margin-bottom: 15px;
+}
+
+.direita h2 {
+    font-family: Georgia, 'Times New Roman', serif;
+
+    font-size: 58px;
+    font-weight: bold;
+
+    margin-bottom: 60px;
+}
+
+.direita p {
+    font-family: Georgia, 'Times New Roman', serif;
+    font-size: 31px;
+    font-weight: bold;
+    line-height: 1.35;
+    max-width: 530px;
+}
